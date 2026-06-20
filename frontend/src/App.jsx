@@ -10,7 +10,7 @@ function App() {
     setLoading(true);
     setReview('');
     try {
-      const response = await axios.post('https://ai-code-reviewer-r99o.onrender.com/api/review', { 
+      const response = await axios.post('const API_URL = "https://ai-code-reviewer-1-xxwu.onrender.com/api/review";', { 
         code: code 
       });
       setReview(response.data);
